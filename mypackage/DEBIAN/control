@@ -1,0 +1,11 @@
+Package: mypackage
+Version: 1.0
+Architecture: all
+Maintainer: ninthIvy <136642053+ninthIvy@users.noreply.github.com>
+Depends: netdiscover
+Description: Check for disconnections and connections. 
+ This script scans the network to check for disconnections and connections.
+ It writes these to a log file in ./ along with the time of the (dis)connection.
+ The user specifies how often the script should scan, how long the script should run for, and an ip range to scan through. 
+ This can reveal devices not supposed to be on the network at the current time as well as devices that are leaving too early/late.
+
